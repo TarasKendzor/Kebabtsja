@@ -1,4 +1,4 @@
-'use strict';
+
 
 setTimeout(function (){
   $('#preloader').fadeOut('slow');
