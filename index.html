@@ -4,10 +4,10 @@
     <meta lang="ua">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Kebabtsja fast food</title>
+    <title>Kebabtsja fast-food</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -23,7 +23,7 @@
                 
               </div>
      <header id="header">  
-              <nav class="navbar navbar-expand-lg   fixed-top">
+              <nav class="navbar navbar-expand-lg fixed-top">
                 <div id="logo-img">
                     <a class="navbar-brand mr-auto"id="home-link" href="#header"><img src="img/logo.jpg" width="60" height="50" alt="logo"></a>
                     <a class="navbar-brand mr-auto"id="home"  href="#header"><img src="img/logo-text.jpg" width="120" height="50" alt="logo"></a>
@@ -47,7 +47,7 @@
                     </div>
                   </nav>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            
+
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -78,7 +78,7 @@
     <main>
         <section class="food-menu container" id="food-menu-content">
             <h2> Наше Меню</h2>
-           <div class="row wow bounceInLeft " data-wow-offset="70" data-wow-duration="1.5s" data-wow-delay="1s" >
+           <div class="row wow bounceInLeft " data-wow-mobile='false' data-wow-offset="70" data-wow-duration="1.5s" data-wow-delay="1s" >
                <div class="col-12 col-md-6 col-lg-3 test" > 
                   <p class="food"> Kebab </p>
                  <img src="img/ШАУРМА-СВИНАЯ.jpg">
@@ -119,40 +119,45 @@
         </div> 
         </section>
        
-        <section class="location" id="my-location"> 
-          <div class="address">
+        <section class="container location"  id="my-location"> 
+        <div class="row ">
+          <div class="address col-12 col-md-5=4 col-lg-4">
+            <div>
                 <div class="place"><p class="wow bounceInLeft"><i class="fas fa-map-marker-alt"></i> </p>
                   <p class="wow bounceInRight delay-2s"> <span> </span>  м.Львів вул.П.Дорошенка 44</p>
                 </div>
                 <div class="open-time">
                   <p class="wow bounceInLeft"><i class="far fa-clock"></i>  Графік роботи:</p>
-                  <p class="wow bounceInRight delay-2s">Понеділок- Пятниця :<span>10-00 : 20-00 </span> </p>
-                  <p class="wow bounceInRight delay-2s">Субота- Неділя :<span> 10-00 : 17-00 </span></p>
-                
-                </div>
+                  <p class="wow bounceInRight delay-1s ">Понеділок- Пятниця :<span>10-00 : 20-00 </span> </p>
+                  <p class="wow bounceInRight delay-1s">Субота- Неділя :<span> 10-00 : 17-00 </span></p>
+                 </div>
+              </div>
           </div>
-           <div class="map col-12 col-md-6  col-lg-6">
+           <div class="map col-12 col-md-6 col-lg-3">
               <div class="map-responsive">
               <iframe id="main-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d643.3190266987086!2d24.0218459534225!3d49.83726935365785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1555012480128!5m2!1suk!2sua" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
+        </div>
         </section>
     </main> 
     <footer>
-      <p>Footer</p>
+      <p>Наша instagram сторінка:</p>
+      <p><a href="#"><i class="fab fa-instagram"></i></a></p>
     </footer>
     
 
 
     
        
-    <script
-  src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="crossorigin="anonymous"></script> 
     <script src="./js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.2/wow.js"></script>
-    <script> new WOW().init();
+    <script>
+        let wow = new WOW({mobile:false});
+        wow.init();
     </script>
         
     </body>
