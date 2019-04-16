@@ -1,5 +1,5 @@
 
-
+alert('Hello Pavlo!');
 //Preloader configuration.//
 setTimeout(function (){
   $('#preloader').fadeOut('slow');
