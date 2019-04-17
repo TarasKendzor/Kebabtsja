@@ -1,5 +1,4 @@
 
-
 //Preloader configuration.//
 setTimeout(function (){
   $('#preloader').fadeOut('slow');
